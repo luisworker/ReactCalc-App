@@ -32,10 +32,9 @@ const App=()=>{
        <button>ce</button>
        <button>◄</button>
        </div>
-        <MathOperations OnclickOperation={(operation)=>{
-        (console.log('operaciones'+ {operation}))
-    }} OnclickEcual={(operation)=>{
-        (console.log('operaciones'+ {operation}))}}/>
+        <MathOperations 
+            OnclickOperation={(operation)=>{(console.log('operaciones'+ {operation}))}}
+             OnclickEcual={(equal)=>{(console.log('operaciones'+ {equal}))}}/>
    </main>
        )
 }
